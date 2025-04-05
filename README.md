@@ -35,7 +35,7 @@ The `/release` directory contains the latest files from the `/bat`, `/csharp`, a
 ├ run_pdf2jpg.bat    # Batch file for running the Python script 
 ├ Pdf2JpgGui.exe     # Latest C# GUI executable 
 ├ other files related to the C# project
-└ readme.txt         # Additional instructions and usage details
+└ readme.html         # Additional instructions and usage details
 ```
 
 Apart from manually adding the `/poppler` directory, this release directory is sufficient to launch the application. You will need to manually update it if there are any changes in the `/bat`, `/python`, or `/csharp` directories.

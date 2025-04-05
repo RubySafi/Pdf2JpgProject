@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF2JPG - README</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        h1, h2, h3 {
+            color: #0044cc;
+        }
+        h2 {
+            margin-top: 30px;
+            border-top: 2px solid #0044cc;
+            padding-top: 10px;
+        }
+        h3 {
+            margin-top: 20px;
+        }
+        pre {
+            background-color: #f5f5f5;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+        .note {
+            background-color: #fff3cd;
+            border: 1px solid #ffeeba;
+            padding: 10px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>PDF2JPG version 1.00.00</h1>
+
+
+    <h2>Application Information</h2>
+    <ul style="list-style-type: none; padding: 0; margin: 0;">
+        <li><strong>Application Name:</strong> PDF2JPG</li>
+        <li><strong>Developer:</strong> RubySafi</li>
+        <li><strong>Type:</strong> Freeware</li>
+        <li><strong>IDE:</strong> Developed on VSCode</li>
+        <li><strong>Language:</strong> C# and Python</li>
+        <li><strong>Last Updated:</strong> 2025/04/05</li>
+        <li><strong>Execute File Name:</strong> Pdf2JpgGui.exe</li>
+        <li><strong>Abstract:</strong> Convert PDF file to JPG file</li>
+    </ul>
+    
+    <h2>1. Abstract</h2>
+    <p>PDF2JPG is a utility that allows you to easily convert PDF files into JPG images. The app offers three different ways to perform the conversion: via a command-line interface (CLI), a batch file, or a graphical user interface (GUI).</p>
+    <p>You can use the app by selecting a PDF file and converting it to JPG images. The resulting images will be placed in the specified output directory or the default directory if none is provided.</p>
+
+    <h2>2. Setup</h2>
+    <p>The release folder is self-contained and ready for use. To launch the application, please follow these steps:</p>
+    <ul>
+        <li>Set up a Python environment if you don't have one.</li>
+        <li>Install the necessary Python libraries <strong>pdf2image</strong> and <strong>tqdm</strong> using <code>pip install pdf2image tqdm</code>.</li>
+        <li>Install the .NET Framework if it's not already installed.</li>
+        <li>Manually add the <strong>poppler</strong> folder inside the release directory. (This is required for PDF rendering.)</li>
+    </ul>
+    <p>Once these steps are completed, the app should be ready to use.</p>
+
+    <h3>Uninstall</h3>
+    <p>To uninstall, simply delete the release folder. No additional uninstallation steps are needed unless you manually installed Python or the .NET Framework.</p>
+
+    <h3>Usage Summary</h3>
+    <p>There are three ways to convert a PDF file to JPG:</p>
+    <ul>
+        <li><strong>CLI Approach:</strong> Use the command-line interface to run the Python script.</li>
+        <li><strong>BAT File Approach:</strong> Use the batch file to quickly convert PDFs.</li>
+        <li><strong>GUI Approach:</strong> Use the graphical user interface to select files and convert them.</li>
+    </ul>
+    <p>In both the BAT file and GUI approaches, the resulting JPG files will be automatically opened in the file explorer.</p>
+
+    <h3>Default Output Directory</h3>
+    <p>The default output directory is an <strong>output</strong> folder that will automatically be created inside the <strong>release</strong> folder. You can change the output directory if needed.</p>
+
+    <h2>Usage Details</h2>
+
+    <h3>Usage Detail 1: CLI Approach</h3>
+    <p>The command to run the Python script is as follows:</p>
+    <pre>python pdf2jpg.py &lt;pdf-file-path&gt; [output-directory-path]</pre>
+    <p><strong>Note:</strong> The <code>output-directory-path</code> is optional. If omitted, the default output directory will be used.</p>
+
+    <h3>Usage Detail 2: BAT File Approach</h3>
+    <p>To convert a PDF file using the batch file:</p>
+    <ol>
+        <li>Drag and drop the PDF file onto the <strong>run_pdf2jpg.bat</strong> file.</li>
+        <li>The PDF will be automatically converted to JPG images, with the output saved in the default output directory.</li>
+    </ol>
+
+    <h3>Usage Detail 3: GUI Approach</h3>
+    <p>To use the GUI:</p>
+    <ol>
+        <li>Launch <strong>Pdf2JpgGui.exe</strong>.</li>
+        <li>A form will appear where you can select the PDF file and the output directory (optional).</li>
+        <li>Click the "Convert" button to start the conversion.</li>
+        <li>After the conversion, the resulting JPG files will automatically open in the output directory.</li>
+    </ol>
+    <p>You can also drag and drop a PDF file onto the form to initiate the conversion.</p>
+
+    <h2>Disclaimer</h2>
+    <p>This software is provided "as is" without any warranty of any kind, express or implied. The developer is not responsible for any damages arising from the use of this software. Use it at your own risk.</p>
+
+    <h2>License</h2>
+    <p>This project is licensed under the MIT License.</p>
+
+    <h2>History</h2>
+    <p>- April, 5, 2025: First release</p>
+
+</body>
+</html>

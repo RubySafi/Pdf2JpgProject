@@ -1,0 +1,20 @@
+# Ignore build directories
+**/bin/
+**/obj/
+
+# User-specific files
+**/*.user
+**/*.userosscache
+**/*.suo
+
+# VSCode settings
+.vscode/
+
+# Visual Studio temporary files
+*.db
+*.log
+*.swp
+*.swo
+
+# JetBrains Rider or IntelliJ IDEA files
+.idea/

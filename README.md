@@ -27,6 +27,7 @@ For Poppler, please download and extract Poppler into a folder named `/poppler` 
 
 The `/release` directory contains the latest files from the `/bat`, `/csharp`, and `/python` directories. It will include the following files and folders:
 
+```
 /release
 ├ /poppler           # Poppler dependency (**gitignored**) 
 ├ config.json        # Configuration file for app settings 
@@ -35,6 +36,7 @@ The `/release` directory contains the latest files from the `/bat`, `/csharp`, a
 ├ Pdf2JpgGui.exe     # Latest C# GUI executable 
 ├ other files related to the C# project
 └ readme.txt         # Additional instructions and usage details
+```
 
 Apart from manually adding the `/poppler` directory, this release directory is sufficient to launch the application. You will need to manually update it if there are any changes in the `/bat`, `/python`, or `/csharp` directories.
 

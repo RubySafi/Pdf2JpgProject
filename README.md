@@ -1,2 +1,2 @@
 # Pdf2JpgProject
-Encode file from pdf to jpg
+Encode a PDF file to JPG format

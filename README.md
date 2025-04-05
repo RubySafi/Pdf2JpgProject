@@ -10,7 +10,7 @@ The project is primarily organized into the following directories:
 - `/bat`: Contains batch scripts to run the Python script.
 - `/csharp`: Contains the source code for the C# GUI application (`Pdf2JpgGui.exe`).
 - `/python`: Contains the Python script that handles the PDF-to-JPG conversion (`pdf2jpg.py`).
-- `/poppler`: A dependency required for handling PDF rendering (**gitignored**).
+- `/poppler`: A dependency required for handling PDF rendering (gitignored).
 - `/release`: Contains the packaged release files for users.
 
 ## Requirements to manage this project
@@ -29,7 +29,7 @@ The `/release` directory contains the latest files from the `/bat`, `/csharp`, a
 
 ```
 /release
-├ /poppler           # Poppler dependency (**gitignored**) 
+├ /poppler           # Poppler dependency (gitignored) 
 ├ config.json        # Configuration file for app settings 
 ├ pdf2jpg.py         # Latest Python script 
 ├ run_pdf2jpg.bat    # Batch file for running the Python script 

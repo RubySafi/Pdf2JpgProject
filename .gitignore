@@ -8,8 +8,10 @@
 **/*.userosscache
 **/*.suo
 
-# Debug file
+# Debug
 python/sample.ipynb
+python/input/
+python/output/
 
 # Ignore third party
 /poppler/

@@ -1,0 +1,5 @@
+{
+  "PythonScript": "pdf2jpg.py",
+  "PopplerPath": "poppler/Library/bin",
+  "DefaultOutput": "output"
+}

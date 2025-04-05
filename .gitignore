@@ -12,9 +12,11 @@
 python/sample.ipynb
 python/input/
 python/output/
+output/
 
 # Ignore third party
-/poppler/
+**/poppler/
+
 
 # VSCode settings
 .vscode/
